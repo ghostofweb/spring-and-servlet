@@ -26,13 +26,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.springcore.springcore"/>
 			<item value="com.feedback.feedback_form"/>
 			<item value="com.feedback.feedback_app"/>
 		</list>
 		<list key="groupId">
+			<item value="com.springcore"/>
 			<item value="com.feedback"/>
 		</list>
 		<list key="artifactId">
+			<item value="springcore"/>
 			<item value="feedback_form"/>
 			<item value="feedback_app"/>
 		</list>
