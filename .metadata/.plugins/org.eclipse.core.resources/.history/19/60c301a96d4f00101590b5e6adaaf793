@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background: #212121;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}

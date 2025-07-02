@@ -1,0 +1,9 @@
+html body{
+	background-color:#212121;
+}
+.content_container{
+	height: 100vh; /* Full viewport height */
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}

@@ -1,0 +1,15 @@
+body{
+	color:white;
+	background:#212121;
+	margin:0;
+	box-sizing:border-box;
+	font-family:sans-sarif;
+}
+
+.container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}

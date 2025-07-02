@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <%@include file="comp/links.jsp" %>
+  </head>
+  <body>
+  <%@include file="header.jsp" %>
+    <div class="content_container">
+    <h3 class="text-white">Fill the feedback form</h3>
+    <form class="text-white mt-10">
+  <div class="mb-3 text-white">
+
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter Email here">
+    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+  </div>
+  
+  
+  <div class="mb-3">  
+    <label for="exampleInputPassword1 " class="form-label text-white">phone</label>
+    <input name="phone" type="number" class="form-control" placeholder="+91XXXXXXXXXX">
+  </div>
+  
+  <div class="mb-3">  
+    <label for="exampleInputPassword1 " class="form-label text-white">Your Feedback</label>
+    <textarea name="phone" type="message" class="form-control" placeholder="+91XXXXXXXXXX">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+        <%@include file="scripts.jsp" %>
+  </body>

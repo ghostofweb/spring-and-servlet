@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css" />
+	<title>This is my project</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to the new project</h1>	
+	
+	<script src="<%= request.getContextPath() %>/js/script.js"></script>
+
+	<form action="<%=request.getContextPath()%>/third" method="post">
+		<button type="submit"> Submit </button>
+	</form>
+	</div>
+</body>
+</html>

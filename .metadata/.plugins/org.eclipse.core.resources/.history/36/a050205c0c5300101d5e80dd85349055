@@ -1,0 +1,25 @@
+package feedback_form;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class FeedbackServlet extends HttpServlet{
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// Get form data
+		//process the data
+		//response
+		
+		resp.setContentType("text/html");
+		PrintWriter writer = resp.getWriter();
+		
+		writer.println("")
+	}
+
+}
